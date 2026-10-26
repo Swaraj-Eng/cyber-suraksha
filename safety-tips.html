@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Safety Tips | Cyber Suraksha</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .safety-section {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .safety-heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .safety-heading h1 {
+            font-size: clamp(30px, 5vw, 46px);
+            margin-bottom: 12px;
+        }
+
+        .safety-heading p {
+            color: #c5d0dc;
+            line-height: 1.7;
+        }
+
+        .safety-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 22px;
+        }
+
+        .safety-card {
+            background: #1A2D43;
+            border: 1px solid #2c435b;
+            border-radius: 16px;
+            padding: 25px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .safety-card:hover {
+            transform: translateY(-5px);
+            border-color: #57D9C5;
+        }
+
+        .safety-card h2 {
+            color: #57D9C5;
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .safety-card p {
+            color: #d4dde6;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .safety-card ul {
+            padding-left: 20px;
+            color: #d4dde6;
+            line-height: 1.8;
+        }
+
+        .safety-card strong {
+            color: white;
+        }
+
+        .safety-warning {
+            margin-top: 30px;
+            padding: 22px;
+            border-radius: 12px;
+            background: #20384a;
+            border-left: 4px solid #57D9C5;
+            color: #e5edf5;
+            line-height: 1.8;
+        }
+
+        .safety-warning a,
+        .back-home {
+            color: #57D9C5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .safety-warning a:hover,
+        .back-home:hover {
+            text-decoration: underline;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">🛡️</span>
+            Cyber Suraksha
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fraud-types.html">Fraud Types</a>
+            <a href="safety-tips.html" class="active">Safety Tips</a>
+            <a href="report-fraud.html">Report Fraud</a>
+            <a href="help.html">Get Help</a>
+        </nav>
+    </header>
+
+    <main class="safety-section">
+
+        <div class="safety-heading">
+            <h1>Stay Safe Online</h1>
+            <p>
+                Simple digital safety habits can protect your money,
+                personal information, and online identity.
+            </p>
+        </div>
+
+        <div class="safety-grid">
+
+            <article class="safety-card">
+                <h2>🔐 1. Password Security</h2>
+                <p><strong>Why it matters:</strong> Weak or reused passwords can make your accounts easier to compromise.</p>
+                <ul>
+                    <li>Use long, unique passwords for different accounts.</li>
+                    <li>Never share your password or OTP.</li>
+                    <li>Enable two-factor authentication wherever available.</li>
+                    <li>Use a trusted password manager if needed.</li>
+                </ul>
+            </article>
+
+            <article class="safety-card">
+                <h2>💳 2. UPI &amp; Payment Safety</h2>
+                <p><strong>Why it matters:</strong> Fake payment requests can trick you into sending money.</p>
+                <ul>
+                    <li>Check the receiver's name and amount before paying.</li>
+                    <li>Never enter your UPI PIN to receive money.</li>
+                    <li>Do not approve unexpected collect requests.</li>
+                    <li>Never share your card PIN, CVV, or OTP.</li>
+                </ul>
+            </article>
+
+            <article class="safety-card">
+                <h2>🎣 3. Fake Links &amp; Messages</h2>
+                <p><strong>Why it matters:</strong> Fraudulent websites may steal login details or payment information.</p>
+                <ul>
+                    <li>Avoid clicking suspicious links in SMS or emails.</li>
+                    <li>Check website addresses carefully.</li>
+                    <li>Download apps from official app stores.</li>
+                    <li>Verify urgent messages using official contact details.</li>
+                </ul>
+            </article>
+
+            <article class="safety-card">
+                <h2>📱 4. Mobile &amp; App Safety</h2>
+                <p><strong>Why it matters:</strong> Unsafe apps and excessive permissions can put your data at risk.</p>
+                <ul>
+                    <li>Keep your phone and apps updated.</li>
+                    <li>Install apps only from trusted sources.</li>
+                    <li>Review app permissions regularly.</li>
+                    <li>Never install unknown APK files sent by strangers.</li>
+                </ul>
+            </article>
+
+            <article class="safety-card">
+                <h2>🌐 5. Social Media Privacy</h2>
+                <p><strong>Why it matters:</strong> Oversharing personal information can help scammers impersonate you.</p>
+                <ul>
+                    <li>Keep your privacy settings updated.</li>
+                    <li>Do not accept every unknown friend request.</li>
+                    <li>Never share passwords or sensitive documents publicly.</li>
+                    <li>Verify requests for money, even from familiar profiles.</li>
+                </ul>
+            </article>
+
+            <article class="safety-card">
+                <h2>📶 6. Wi-Fi &amp; Public Devices</h2>
+                <p><strong>Why it matters:</strong> Untrusted networks and shared devices can expose your information.</p>
+                <ul>
+                    <li>Avoid banking transactions on untrusted public Wi-Fi.</li>
+                    <li>Prefer your mobile network for sensitive transactions.</li>
+                    <li>Log out after using a shared computer.</li>
+                    <li>Never save passwords on public devices.</li>
+                </ul>
+            </article>
+
+        </div>
+
+        <div class="safety-warning">
+            <strong>⚠️ If online financial fraud occurs:</strong>
+            Contact your bank immediately, call India's cyber financial fraud helpline
+            <strong>1930</strong>, and submit a complaint at the
+            <a href="https://www.cybercrime.gov.in/"
+               target="_blank"
+               rel="noopener noreferrer">
+                official National Cyber Crime Reporting Portal
+            </a>.
+            Keep transaction IDs, messages, and other evidence.
+        </div>
+
+        <a class="back-home" href="index.html">← Back to Home</a>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Cyber Suraksha | Stay Alert. Stay Safe.</p>
+    </footer>
+
+</body>
+</html>
